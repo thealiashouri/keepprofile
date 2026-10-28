@@ -1,0 +1,3 @@
+import { Layers3 } from "lucide-react";
+import { PageHeading, EmptyState } from "@/components/ui";
+export default function ServicesPage() { return <div className="container page"><PageHeading title="خدمات" description="خدمات قابل ارائه در HiKeep در این بخش نمایش داده می‌شوند."/><section className="surface content-panel"><EmptyState title="خدمات هنوز پیکربندی نشده‌اند" description="پس از اتصال کاتالوگ خدمات به سامانه، گزینه‌های معتبر اینجا نمایش داده خواهند شد."/><span className="placeholder-icon"><Layers3 size={22}/></span></section></div>; }

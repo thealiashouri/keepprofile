@@ -1,0 +1,3 @@
+import { ClipboardList } from "lucide-react";
+import { PageHeading, EmptyState } from "@/components/ui";
+export default function OrdersPage() { return <div className="container page"><PageHeading title="سفارش‌ها" description="وضعیت و سوابق سفارش‌های شما."/><section className="surface content-panel"><EmptyState title="هنوز سفارشی برای نمایش وجود ندارد" description="با اتصال سرویس سفارش‌ها، سفارش‌های واقعی حساب در این صفحه نمایش داده می‌شوند."/><span className="placeholder-icon"><ClipboardList size={22}/></span></section></div>; }

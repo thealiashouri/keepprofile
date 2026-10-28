@@ -1,0 +1,3 @@
+import { PageHeading } from "@/components/ui";
+import { Leaf, Code2, Info } from "lucide-react";
+export default function AboutPage() { return <div className="container page"><PageHeading title="درباره HiKeep" description="اطلاعات معرفی پلتفرم."/><section className="surface about-card"><div className="about-mark"><Leaf size={30}/></div><h2>HiKeep</h2><p>این ناحیه کاربری با هدف ارائه تجربه‌ای ساده، منظم و قابل دسترس طراحی شده است.</p><div className="about-info"><span><Info size={17}/> نسخه</span><strong>ثبت نشده</strong></div><div className="about-info"><span><Code2 size={17}/> وضعیت پروژه</span><strong>نسخه آغازین رابط کاربری</strong></div><p className="muted">اطلاعات رسمی شرکت، خدمات و راه‌های ارتباطی هنوز ارائه نشده‌اند.</p></section></div>; }

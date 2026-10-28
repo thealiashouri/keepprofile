@@ -1,0 +1,3 @@
+import { Wallet } from "lucide-react";
+import { PageHeading, EmptyState } from "@/components/ui";
+export default function WalletPage() { return <div className="container page"><PageHeading title="کیف پول" description="موجودی و تراکنش‌های کیف پول پس از اتصال سرویس مالی نمایش داده می‌شوند."/><section className="surface content-panel"><EmptyState title="کیف پول هنوز متصل نیست" description="برای جلوگیری از نمایش اطلاعات مالی ساختگی، موجودی و تراکنش نمونه ارائه نشده است."/><span className="placeholder-icon"><Wallet size={22}/></span></section></div>; }

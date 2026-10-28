@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <main className="not-found"><span>۴۰۴</span><h1>صفحه پیدا نشد</h1><p>ممکن است آدرس تغییر کرده باشد یا صفحه هنوز ساخته نشده باشد.</p><Link href="/home" className="btn btn-primary">بازگشت به خانه</Link></main>; }
